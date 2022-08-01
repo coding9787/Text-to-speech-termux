@@ -1,0 +1,11 @@
+1)Python:
+        pkg install python
+
+
+2)mpv:
+      pkg install mpv
+
+
+
+3)gtts:
+      pip install gtts
