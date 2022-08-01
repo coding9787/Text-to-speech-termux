@@ -9,3 +9,8 @@
 
 3)gtts:
       pip install gtts
+
+
+4)tts:
+      git clone https://github.com/coding9787/Text-to-speech-termux
+      
