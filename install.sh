@@ -1,11 +1,13 @@
-apt update
-apt upgrade
-pkg update
-pkg upgrade
-pkg install git
-pkg install python
+echo "Updating system....."
+apt update -y
+apt upgrade -y
+echo "Updating pakages......"
+pkg update -y
+pkg upgrade -y
+echo "Install python......."
+pkg install python -y
+echo "Install mpv & gtts modules........"
 pip install mpv
 pip install gtts
-git clone https://github.com/coding9787/Text-to-speech-termux.git
-cd Text-to-speech-termux
+echo "Starting Text To Speech Programe........"
 python tts1.py
